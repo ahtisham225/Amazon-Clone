@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom" 
-import Header from './Header';
+// import Header from './Header';
+import Home from './Home';
 function App() {
   return (
     <Router>
@@ -22,13 +23,6 @@ function App() {
       </div>
     </Router>
   );
-}
-
-function Home(){
-  return <div>
-  <Header/>
-  <h1>Welcome to HomePage</h1>
-  </div>
 }
 
 function Login(){
