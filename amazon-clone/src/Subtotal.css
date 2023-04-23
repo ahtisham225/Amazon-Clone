@@ -1,0 +1,29 @@
+    .SubTotal {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between ;
+        width: 300px;
+        height: 100px;
+        padding: 20px;
+        background-color: #f3f3f3;
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+
+
+    }
+
+    .subTotalButton {
+    
+        color: white;
+        background-color: rgb(103, 144, 156);
+        border: 10px;
+        border-radius: 3px;
+    }
+    .subTotalButton:hover {
+        
+        color: white;
+        background-color: rgb(103, 144, 156);
+        border: solid #000000 3px;
+        cursor: pointer;
+        
+    }
