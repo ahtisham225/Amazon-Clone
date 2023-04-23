@@ -61,7 +61,7 @@ function Header() {
                 </div>
             </Link>  
             {/* 4th Link */}
-            <Link className='header_nav_link' to='/login' >
+            <Link className='header_nav_link' to='/checkout' >
                 <div className='header_optionsBasket'>
 
                     <ShoppingBasketIcon/>

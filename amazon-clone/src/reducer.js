@@ -17,12 +17,18 @@ export function reducer(state, action){
             // break;
         case 'REMOVE_FROM_BASKET':
             //REMOVING FROM BASKET 
-            return {
-                ...state,
-                basket:[...state.basket,action.item]
-            };
+            let newBasket = [...state.basket];
+            const index = state.basket.findIndex((basketItem)=> basketItem.id === action.id)
+            if(index >=0){
+                newBasket.splice(index,1);
+
+            }else {
+
+                console.log("Don't have item to Remove ");
+            }
+            return {...state, basket:newBasket};
             break;
-        default:
+        default:    
             return state;
 
     }
