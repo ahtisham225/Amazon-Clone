@@ -56,3 +56,12 @@
     /* border-color:  #39413e  #526860  #669182; */
 
 }
+
+.product > button:hover {
+    color: white;
+    background-color: rgb(79, 74, 64);
+    border: solid #000000 3px;
+    cursor: pointer;
+    /* border-color:  #39413e  #526860  #669182; */
+
+}
