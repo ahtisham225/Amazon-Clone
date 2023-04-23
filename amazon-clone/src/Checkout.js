@@ -9,9 +9,9 @@ function Checkout(){
     return <div>
         <Header />
         <div className='checkout'>
-        <div className='checkout_left'>
-            
-            <img className="checkout_image" src='https://www.shutterstock.com/shutterstock/photos/1161616900/display_1500/stock-photo-creative-flat-lay-top-view-back-to-school-concept-with-color-school-and-office-supplies-on-bright-1161616900.jpg'></img>
+        <div className='checkout_left'>       
+            {/* <img src='addBanner.png'></img>      */}
+            <img className="checkout_image" src='https://i.ibb.co/6rmJPHd/add-Banner.png'></img>
             <h1 className='header_title'>Checkout</h1>
             {basket?.length === 0 ? (
                 <div>

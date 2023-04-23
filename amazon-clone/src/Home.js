@@ -2,7 +2,9 @@ import React from "react";
 import Header from "./Header";
 import "./Home.css"
 import SimpleImageSlider from "react-simple-image-slider";
+import Footer from './Footer';
 import Product from './Product';
+
 const images = [
     { url: "https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg" },
     { url: "https://m.media-amazon.com/images/I/71tIrZqybrL._SX3000_.jpg" },
@@ -87,6 +89,7 @@ function Home(){
             />
 
             </div>
+        <Footer />
     </div>
   }
 
